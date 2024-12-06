@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel reservation</title>
+<!-- Bootstrap core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+<!-- Additional CSS Files -->
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/fontawesome.css">
+<link rel="stylesheet" href="assets/css/owl.css">
+<link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    
+<!-- ***** Header Area Start ***** -->
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <h1>Hotel</h1>
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="Hotel list.html">Hotel</a></li>
+                        <li><a href="property-details.html">Property Details</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="dateHotel.html"><i class="fa fa-calendar"></i>Date</a></li>
+                    </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <main>
+        <form id="reservation-form"> <label for="name">name:</label> <input type="text" id="name" name="name"><br><br>
+            <label for="email">email:</label> <input type="email" id="email" name="email"><br><br> <label
+                for="phone">phone:</label> <input type="tel" id="phone" name="phone"><br><br> <label
+                for="arrival-date">entry date:</label> <input type="date" id="arrival-date" name="arrival-date"><br><br>
+            <label for="departure-date">date of departure:</label> <input type="date" id="departure-date"
+                name="departure-date"><br><br> <label for="room-type">room type:</label> <select id="room-type"
+                name="room-type">
+                <option value="single">single room</option>
+                <option value="double">Double room</option>
+                <option value="suite">Suite</option>
+            </select><br><br> <button type="submit">Reservation</button>
+        </form>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
